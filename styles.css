@@ -1,0 +1,93 @@
+/* Typography */
+
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Playfair Display', serif;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.icons-social i {
+	font-size: 3em;
+}
+
+.circular--square {
+	border-radius: 50%;
+	width: 2.5em;
+}
+
+/* Custom Styles */
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main>.intro {
+	font-family: 'Playfair Display', serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+main>.tagline {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 400;
+}
+
+.icons-social i {
+	padding: 10px;
+}
+
+/*
+.fa-spotify {
+	color: #7ab800;
+}
+
+.fa-soundcloud {
+	color: #f80;
+}
+
+.fa-youtube {
+	color: #e52d27;
+}
+*/
+main {
+	background: #000000;
+	color: #FAFAFA;
+}
+
+.icons-social a {
+	color: #ffffff;
+}
+
+.icons-social a svg path {
+	fill: #ffffff;
+}
